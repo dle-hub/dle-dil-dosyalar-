@@ -1,43 +1,38 @@
-# DLE Türkçe Dil Dosyaları 🇹🇷
+# 🇹🇷 DataLife Engine Türkçe Dil Dosyaları
 
-Bu depo, **DataLife Engine (DLE)** CMS sistemi için hazırlanmış Türkçe dil dosyalarını içerir.
+Bu repo, **DataLife Engine (DLE)** için hazırlanmış _güncel ve sadeleştirilmiş Türkçe dil dosyalarını_ içermektedir. Tüm çeviriler DLE'nin yönetim panelinden son kullanıcı arayüzüne kadar eksiksiz bir şekilde Türkçeye çevrilmiştir.
 
-## 📁 İçerik
+> 💡 Amacımız, DLE kullanıcılarına Türkçe kullanımı kolaylaştırmak ve topluluk tarafından desteklenen açık kaynaklı bir dil paketi sunmaktır.
 
-Aşağıdaki dil dosyaları bu repoda yer almaktadır:
+## 🔧 İçerik
 
-- `admincheck.lng`
-- `adminlogs.lng`
-- `adminpanel.lng`
-- `help.lng`
-- `install.lng`
-- `website.lng`
-- `info.json`
-- `icon.png`
+| Dosya Adı           | Açıklama                         |
+|---------------------|----------------------------------|
+| `admincheck.lng`    | Yönetici kontrol mesajları       |
+| `adminlogs.lng`     | Yönetici işlem günlükleri        |
+| `adminpanel.lng`    | Yönetici paneli arayüzü          |
+| `help.lng`          | Yardım içerikleri                |
+| `install.lng`       | Kurulum ekranı çevirileri        |
+| `website.lng`       | Genel site arayüzü metinleri     |
+| `info.json`         | Dil paketi bilgisi (sistemsel)   |
+| `icon.png`          | Paket ikonu (görsel)             |
 
-## 📌 Amaç
+## 🌐 Proje Web Sitesi
 
-Bu proje, DLE kullanıcılarına Türkçe arayüz desteği sağlamak amacıyla oluşturulmuştur. Dosyalar, panel ve site genelinde Türkçe dil uyumluluğu sunar.
+👉 [https://dlehub.com.tr](https://dlehub.com.tr)  
+Türkiye’nin ilk topluluk destekli DLE platformu: eklentiler, temalar, destek ve çok daha fazlası!
 
-## ⚙️ Kurulum
+## 📦 Kullanım
 
-1. Dosyaları indir.
-2. `language/turkish/` dizinine yükle (veya varsa kendi özel dil dizinine).
-3. DLE panelinden "Türkçe" dilini seç.
+1. Dil dosyalarını `language/turkish/` klasörüne yerleştirin.
+2. Yönetici panelinden "Turkish" dilini aktif edin.
+3. Geri bildirim ve katkı için _Pull Request_ gönderebilirsiniz.
 
-## 🧩 Uyumlu Sürüm
+## 🤝 Katkı Sağla
 
-Test Edilen DLE Sürümü: **14.x ve üzeri**
-
-## 🤝 Katkıda Bulun
-
-Eksik ya da hatalı çeviriler mi var? Pull request göndererek projeye katkıda bulunabilirsin!
-
-## 📄 Lisans
-
-Bu proje açık kaynak olarak sunulmaktadır. Herkesin katkısına açıktır.
+Dil hatalarını düzeltebilir, yeni metinleri çevirebilir veya önerilerde bulunabilirsiniz. Bu topluluk projesine katkı sağlamak isterseniz, _fork_ ve _pull request_ yoluyla bize ulaşın!
 
 ---
 
-> Proje sahibi: [dle-hub](https://github.com/dle-hub)  
-> Daha fazla bilgi için bizimle iletişime geçin.
+**Hazırlayan:** [DleHub Türkiye](https://dlehub.com.tr)  
+🎯 Türkçe DLE deneyimini geliştirmek için buradayız.
