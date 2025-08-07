@@ -20,7 +20,7 @@ Bu repo, **DataLife Engine (DLE)** için hazırlanmış _güncel ve sadeleştiri
 ## 🌐 Proje Web Sitesi
 
 👉 [https://dlehub.com.tr](https://dlehub.com.tr)  
-Türkiye’nin ilk topluluk destekli DLE platformu: eklentiler, temalar, destek ve çok daha fazlası!
+Türkiye’nin topluluk destekli DLE platformu: eklentiler, temalar, destek ve çok daha fazlası!
 
 ## 📦 Kullanım
 
