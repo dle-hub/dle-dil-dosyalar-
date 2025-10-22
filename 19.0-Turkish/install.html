@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>DataLife Engine</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: black;
+	background-color: white;
+	text-align: center;
+	font-size:11px;
+}
+
+#main {
+	width: 620px;
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #ffc;
+	border: 1px groove #333;
+	text-align:left;
+}
+
+html>body #content {
+	width: 584px;
+}
+
+.fineprint {
+	border:1px solid black;
+	padding:8px;
+	background:#ffffff;
+	text-align:justify;
+}
+
+.text, li {
+	font-family:verdana, sans-serif;
+	font-size:11px;
+	margin-left:20px;
+	margin-right:20px;
+	line-height:140%;
+	text-align:justify;
+}
+
+.tiny {
+	font-family:verdana, sans-serif;
+	font-size:11px;
+	margin-bottom:10px;
+}
+li {
+    margin-bottom:12px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="main">
+    <div align="center"><h1><b>DataLife Engine</b></h1></div>
+    <p align="center"><b>Sunucuya yeni betik kurulumu hakkında kısa bilgi</b></p>
+    <div class="text">
+<p><b>Değerli arkadaşlar!</b><br /><br />Web sitenizde kullanmak üzere betiğimizi seçtiğiniz için teşekkür ederiz. Betiği olabildiğince erişilebilir ve anlaşılır hale getirmek için büyük çaba gösteriyoruz, ancak kullanmaya başlamadan önce betiğin tam dokümantasyonunu okumanızı önemle tavsiye ederiz. Dokümantasyona <a href="readme.chm">readme.chm</a> dosyasından ulaşabilirsiniz.</p>
+
+<p><b>Sunucuya betiğin kurulumu</b></p>
+<p>Betiğin kurulumu tamamen otomatik olup genellikle herhangi bir sorun oluşturmaz, ancak klasörlere erişim izinlerini ayarlamak için bazı adımları gerçekleştirmeniz gerekir.</p>
+
+<ol type="1">
+<li>
+Öncelikle bu arşivin <b>upload</b> klasöründeki tüm dosyaları sunucunuza kopyalayın.
+</li>
+
+<li>
+<b>templates</b> klasörünü ve alt klasörlerini yazılabilir hale getirin. (CHMOD 777)
+</li>
+
+<li>
+<b>backup</b> ve <b>uploads</b> klasörlerini, ayrıca içlerinde bulunan tüm klasörleri yazılabilir hale getirin. (CHMOD 777)
+</li>
+
+<li>
+Aşağıdaki klasörleri yazılabilir hale getirin (CHMOD 777): <b>/engine/data/</b>, <b>/engine/cache/</b>.
+</li>
+
+<li>
+<b>install.php</b> dosyasını çalıştırın ve yönergeleri izleyin. Otomatik kurulum aracı gerekli tüm dosyaları kontrol edecek ve veritabanı bağlantısını yapılandıracaktır. Kurulum tamamlandıktan sonra <b>http://website.com/index.php</b> adresine giderek betiğin nasıl çalıştığını görebilirsiniz. Yönetim paneline erişmek için <b>http://website.com/admin.php</b> adresini kullanın.
+</li>
+</ol>
+
+<div class="fineprint">
+        <p><font color="red">Dikkat:</font> Betiği sunucunuza kurarken veya güncellerken <b>install.php</b> dosyasını mutlaka silin. Aksi halde betiğin kurulum süreci yeniden başlatılabilir ve mevcut veri yapısı bozulabilir.</p>       
+</div>
+
+<p>Umarız betiğimizle çalışmaktan memnun kalırsınız.<br /><br /><b>Saygılarımızla,<br /><br />SoftNews Media Group</b></p>
+
+</div>
+</div>
+<br />
+</body></html>
+
