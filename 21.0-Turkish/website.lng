@@ -6,7 +6,7 @@ $lang = array (
 'direction'		        =>  "ltr",
 
 // 21.0
-'news_auth'             =>  "Bu yayını yazmaya başladığınız hesapla artık oturum açmış değilsiniz. Oturum sona ermiş veya diğer güvenlik ayarları nedeniyle yetkilendirme sonlandırılmış olabilir. Yayını kaydetmeye çalıştığınızda girdiğiniz veriler kaybolabilir.",
+'news_auth'             =>  "Bu içeriği oluşturmaya başladığınız hesapla oturumunuz sonlanmış. Güvenlik ayarları veya zaman aşımı nedeniyle oturumunuz kapanmış olabilir. Kaydetmeye çalıştığınızda verileriniz kaybolabilir.",
 'player_volume'         =>  "Ses düzeyi",
 'player_playlist'       =>  "Oynatma listesi",
 'player_subtitles'      =>  "Altyazılar",
@@ -20,16 +20,16 @@ $lang = array (
 'media_oembed_error'    =>  "Belirtilen bağlantıdan medya içeriği alınamadı",
 'addnews_cat_fault'		=>  "Sonuç bulunamadı",
 'xfield_dyn_limmax'     =>  "Maksimum alan sayısına ulaşıldı: ",
-'share_link'			=>  "Yayın bağlantısını paylaş",
+'share_link'			=>  "Haber bağlantısını paylaş",
 'link_copied'			=>  "Bağlantı panoya kopyalandı",
 // 21.0
 
 // 20.0
 'ai_down'		        => "Otomatik moderasyon sistemi şu anda kullanılamıyor, bu nedenle yorumunuz yayımlanamıyor. Lütfen biraz sonra tekrar deneyin. Verdiğimiz rahatsızlıktan dolayı özür dileriz.",
-'social_auth_1'         => "Sitede yetkilendirmeyi tamamlama",
-'social_auth_2'         => "Sitede yetkilendirmeyi tamamlamak için istediğiniz kullanıcı adını girmeniz gerekir:",
+'social_auth_1'         => "Giriş işlemini tamamlama",
+'social_auth_2'         => "Giriş işlemini tamamlamak için istediğiniz kullanıcı adını girmeniz gerekir:",
 'social_auth_3'         => "E-mail adresinizi girin:",
-'social_auth_4'         => "Yetkilendirme hatası. Sayfayı yenileyin ve tekrar deneyin.",
+'social_auth_4'         => "Giriş hatası. Sayfayı yenileyip tekrar deneyin.",
 'social_auth_5'         => "Bu E-mail adresine sahip kullanıcı sitede zaten kayıtlı. Kullanıcı adınız ve parolanızla giriş yapın ve profilinizde hesabınızı sosyal ağa bağlayın.",
 'btn_continue'          => "Devam et",
 // 20.0
@@ -49,12 +49,12 @@ $lang = array (
 
 // 18.1
 'quote_find'            => "Mesajı göster",
-'edit_news_alert'		=> "Bu yayın şu anda <b>{name}</b> kullanıcısı tarafından düzenleniyor",
+'edit_news_alert'		=> "Bu içerik şu anda <b>{name}</b> kullanıcısı tarafından düzenleniyor",
 // 18.1
 
 // 18.0
 'feedback_banned'        => "Kullanıcı sitede yasaklı",
-'country_declined_1'     => "Bu yayının görüntülenmesine erişimin kapalı olduğu bir ülkedesiniz.",
+'country_declined_1'     => "Bu haberin görüntülenmesine erişimin kapalı olduğu bir ülkedesiniz.",
 'rating_error6'		     =>	"Bugün çok fazla olumsuz puan verdiniz. Olumsuz puan verme hakkınız geçici olarak durduruldu.",
 'pm_err_14'              => "Kullanıcı şu anda sitede yasaklı ve kişisel mesaj alamıyor",
 'pm_err_15'              => "Bu yazışmaya erişiminiz yok",
@@ -100,7 +100,7 @@ $lang = array (
 // 17.1
 'comm_placeholder'      => "Mesaj metninizi yazın",
 'comm_a_placeholder'    => "Yorum yazarının adı",
-'error_complaint_4'     => "Şikayet metnini belirtmediniz.",
+'error_complaint_4'     => "Şikayet metnini girmedin.",
 // 17.1
 
 // 17.0
@@ -131,8 +131,8 @@ $lang = array (
 
 // 16.0
 'error_max_queue'       => "Yüklenmesine izin verilen maksimum dosya sayısı aşıldı",
-'add_err_12'            => "Bu yayını düzenleme hakkınız yok.",
-'title_editnews'        => "Yayını düzenleme",
+'add_err_12'            => "Bu haberi düzenleme hakkınız yok.",
+'title_editnews'        => "Haberi düzenleme",
 'hours_diffs'           => "saat",
 'minutes_diffs'         => "dakika",
 'time_diffs'            => "önce",
@@ -181,7 +181,7 @@ $lang = array (
 // 14.1
 'pm_err_11'				=>	"Mesaj gönderilemez, çünkü alıcı için sitede kişisel mesaj kullanımı yasaklanmıştır",
 'reg_err_45'        	=>  "Bu sosyal ağdaki hesap şu anda sitedeki başka bir <b>{login}</b> hesabına bağlı. Bu hesapla giriş yapın, profilinizdeki bağlantıyı kaldırın; ardından yeni hesap için yeniden bağlayabilirsiniz.",
-'reg_err_46'        	=>  "Sitede yetkilendirilmemişsiniz, bu nedenle mevcut hesaba bağlama mümkün değildir",
+'reg_err_46'        	=>  "Siteye giriş yapmamışsınız, bu nedenle mevcut hesaba bağlama mümkün değildir",
 'reg_err_47'        	=>  "Sosyal ağ hesabı hesabınıza bağlanmadı. Bu sorunu çözmek için site yöneticisine başvurun.",
 'social_attach_ok'		=>	"Hesabınız {social} ağındaki hesabınıza başarıyla bağlandı. Bunu sitede giriş yapmak için kullanabilirsiniz.",
 'social_attach_ok_1'	=>	"Hesabınız daha önce zaten {social} ağındaki hesabınıza bağlanmıştı. Bunu sitede giriş yapmak için kullanabilirsiniz.",
@@ -212,7 +212,7 @@ $lang = array (
 'emoji_symbols'			=>	"Semboller",
 'emoji_flags'			=>	"Bayraklar",
 'emoji_last'			=>	"Son kullanılanlar",
-'enable_lastviewed'		=>	"Bu bloğu göstermek için yönetim panelindeki betik ayarlarında görüntülenen yayınların kaydını etkinleştirin",
+'enable_lastviewed'		=>	"Bu bloğu göstermek için yönetim panelindeki sistem ayarlarında görüntülenen haberlerin kaydını etkinleştirin",
 'tinyapi_error'			=>	"TinyPNG servisiyle görsel işlemeyi etkinleştirdiniz. Görsel işlenirken bir hata oluştu:",
 'player_play'			=>	"Oynat",
 'player_pause'			=>	"Duraklat",
@@ -255,7 +255,7 @@ $lang = array (
 
 // 12.0
 'enter_n_pass'			=>	"Parola onayı gerekli",
-'enter_n_pass_1'		=>	"Bu yayını görüntülemek için site yönetimi tarafından bu yayın için belirlenen parolayı girmeniz gerekir",
+'enter_n_pass_1'		=>	"Bu haberi görüntülemek için site yönetimi tarafından bu haber için belirlenen parolayı girmeniz gerekir",
 'enter_n_pass_2'		=>	"Parolayı girin:",
 'enter_n_pass_3'		=>	"Gönder",
 'enter_n_pass_4'		=>	"<b>Yayın için yanlış parola belirtildi</b>",
@@ -270,10 +270,10 @@ $lang = array (
 'twofactor_auth'		=>	"Sitede iki faktörlü kimlik doğrulama kullan (tek kullanımlık PIN kodu E-mail adresine gönderilir)",
 'twofactor_alert'		=>	"Hesabınız için iki faktörlü kimlik doğrulamayı etkinleştirdiniz. E-mail adresinize tek kullanımlık bir PIN kodu gönderildi. Siteye giriş yapmak için bu PIN kodunu girmeniz gerekir:",
 'twofactor_title'		=>	"PIN kodunu girin",
-'twofactor_subj'		=>	"Sitede yetkilendirme için tek kullanımlık PIN kodu",
+'twofactor_subj'		=>	"Siteye giriş için tek kullanımlık PIN kodu",
 'twofactor_err_1'		=>	"PIN kodunu girmeden önce kullanıcı adınız ve parolanızla siteye giriş yapmalısınız",
-'twofactor_err_2'		=>	"PIN kodunu girmediniz",
-'twofactor_err_3'		=>	"Yetkilendirme verileri geçersiz. Tarayıcıdaki sayfayı yenileyin ve kullanıcı adınızla parolanızı girin.",
+'twofactor_err_2'		=>	"PIN kodunu girmedin",
+'twofactor_err_3'		=>	"Giriş bilgileri geçersiz. Tarayıcıdaki sayfayı yenileyin ve kullanıcı adınızla parolanızı girin.",
 'twofactor_err_4'		=>	"Tek kullanımlık PIN kodunun geçerlilik süresi doldu. Kod, istekten sonra yalnızca 15 dakika içinde girilebilir.",
 'twofactor_err_5'		=>	"Yanlış PIN kodu girildi, {attempt} deneme kaldı.",
 'subscribe_err_1'		=>	"Yorumlara abone olamazsınız",
@@ -301,7 +301,7 @@ $lang = array (
 'news_subscribe'		=>	"Haberlerime yeni yorum geldiğinde e-mail bildirimi al",
 'comments_reply_subscribe'	=>	"Yorumlarıma yanıt verildiğinde e-mail bildirimi al",
 'news_unsubscribe'		=>	"{subscribed} yayına ait yorumlara abonesiniz",
-'news_unsubscribe_1'	=>	"Tüm yayınların aboneliğini iptal et",
+'news_unsubscribe_1'	=>	"Tüm haberlerin aboneliğini iptal et",
 // 11.1
 
 // 11.0
@@ -360,13 +360,13 @@ $lang = array (
 
 
 // 10.4
-'reg_err_41'        =>  "Site yöneticisi, sitede yalnızca sosyal ağlar üzerinden yetkilendirmeye izin verdi. Bu durumda sitede kayıt kapatılmıştır.",
+'reg_err_41'        =>  "Site yöneticisi, sitede yalnızca sosyal ağlar ile girişye izin verdi. Bu durumda sitede kayıt kapatılmıştır.",
 'bb_url_tooltip'	=>	"Bağlantı için ipucu girin",
 'wait_subj'			=>	"Sitedeki hesabın sosyal ağ hesabıyla birleştirilmesi",
-'reg_err_42'        =>  "Bu kullanıcı yönetici grubundadır, bu nedenle sosyal ağlar üzerinden yetkilendirme ile birleştirilemez. Site yönetimi için sosyal ağlar üzerinden yetkilendirme desteği sağlamak adına, bu özelliğin yönetim panelindeki site ayarlarında etkinleştirilmesi gerekir.",
+'reg_err_42'        =>  "Bu kullanıcı yönetici grubundadır, bu nedenle sosyal ağlar ile giriş ile birleştirilemez. Site yönetimi için sosyal ağlar ile giriş desteği sağlamak adına, bu özelliğin yönetim panelindeki site ayarlarında etkinleştirilmesi gerekir.",
 'reg_err_43'        =>  "Hesap birleştirme işlemi tamamlanmadı. Sitedeki hesap birleştirme bağlantısı yalnızca bir kez geçerlidir.",
-'auth_next'			=>	"Sitede yetkilendirmeye devam et",
-'auth_social_ok'	=>	"Hesaplar başarıyla birleştirildi. Belirtilen bağlantıyı izleyerek sitede yetkilendirmeye devam edebilirsiniz:",
+'auth_next'			=>	"Giriş işlemine devam et",
+'auth_social_ok'	=>	"Hesaplar başarıyla birleştirildi. Belirtilen bağlantıyı izleyerek siteye girişe devam edebilirsiniz:",
 // 10.4
 
 // 10.3
@@ -374,12 +374,12 @@ $lang = array (
 'social_err_1'		=>	"Sosyal ağdan kullanıcı verileri alınamadı. Ağ ayarlarında gizli anahtar yanlış belirtilmiş olabilir ya da sunucuda dış bağlantılar yasaklandığı için sosyal ağa bağlanılamamış olabilir.",
 'social_err_2'		=>	"Desteklenmeyen bir sosyal ağ belirtildi.",
 'social_err_3'		=>	"Sosyal ağdan kullanıcı verileri alınamadı.",
-'social_login_ok'	=>	"Sitede başarıyla yetkilendirildiniz. Şimdi otomatik olarak siteye yönlendirileceksiniz. Bu gerçekleşmezse pencereyi kapatın ve siteyi tarayıcıda yeniden yükleyin.",
-'reg_err_36'        =>  "Daha önce sitemizde e-mail adresinizle, doğrudan veya başka bir sosyal ağ üzerinden kayıt oldunuz. Sitedeki hesabınızı sosyal ağ hesabınızla birleştirmek için, hesapların birleştirilmesini onaylamaya ilişkin talimatların yer aldığı bir e-posta adresinize gönderildi. Onaydan sonra bu sosyal ağ üzerinden sitede yetkilendirilebileceksiniz.",
-'reg_err_37'        =>  "Sitede yetkilendirmeye devam etmek için e-mail adresinizi girmeniz gerekir:",
+'social_login_ok'	=>	"Siteye başarıyla giriş yaptınız. Şimdi otomatik olarak siteye yönlendirileceksiniz. Bu gerçekleşmezse pencereyi kapatın ve siteyi tarayıcıda yeniden yükleyin.",
+'reg_err_36'        =>  "Daha önce sitemizde e-mail adresinizle, doğrudan veya başka bir sosyal ağ üzerinden kayıt oldunuz. Sitedeki hesabınızı sosyal ağ hesabınızla birleştirmek için, hesapların birleştirilmesini onaylamaya ilişkin talimatların yer aldığı bir e-posta adresinize gönderildi. Onaydan sonra bu sosyal ağ üzerinden sitede giriş yapabileceksiniz.",
+'reg_err_37'        =>  "Giriş işlemine devam etmek için e-mail adresinizi girmeniz gerekir:",
 'reg_err_38'        =>  "Bu adres başka bir kullanıcı tarafından kullanılıyor. Başka bir adres girin.",
 'reg_err_39'        =>  "Sunucunuzdaki PHP oturumlarının çalışmasıyla ilgili bir sorun tespit edildi. PHP oturumlarının çalışabilirliğini kontrol etmeleri için barındırma sağlayıcınızın destek hizmetine başvurmanız gerekir.",
-'reg_err_40'        =>  "Sitede yetkilendirmeye çalıştığınız sosyal ağdan e-mail adresiniz alınamadı. Sitede yetkilendirme için e-mail adresinin bulunması zorunludur. Bunu sosyal ağ ayarlarınızda belirtin.",
+'reg_err_40'        =>  "Siteye girişye çalıştığınız sosyal ağdan e-mail adresiniz alınamadı. Siteye giriş için e-mail adresinin bulunması zorunludur. Bunu sosyal ağ ayarlarınızda belirtin.",
 'social_next'       =>  "Devam et",
 'fav_plus'     	    =>  "Yayın, sitedeki yer imlerinize başarıyla eklendi",
 'fav_minus'     	=>  "Yayın, sitedeki yer imlerinizden başarıyla kaldırıldı",
@@ -413,7 +413,7 @@ $lang = array (
 'paste_text'		=>	"Düz metin olarak yapıştır",
 'bb_t_yvideo'		=>	"Video servislerinden video oynatma",
 'reg_err_26'        =>  "Site yöneticisi, sitede aynı IP kullanılarak birden fazla hesabın kaydedilmesini yasakladı. IP adresiniz başka bir hesapta zaten kullanıldı.",
-'reg_err_27'        =>  "Sitede kayıtlı hesabınızla zaten yetkilendirildiniz.",
+'reg_err_27'        =>  "Sitede kayıtlı hesabınızla zaten giriş yaptınız.",
 // 9.7
 
 // 9.6
@@ -458,7 +458,7 @@ $lang = array (
 'anti_not'			=>  "dağıtımda bilinmiyor",
 'anti_subj'			=>  "Sitenizin antivirüs kontrol sonucu",
 'anti_message_1'	=>  "Sayın yönetici, cron ayarlarınıza göre dosyalar yabancı veya değiştirilmiş dosyalar açısından kontrol edildi. Kontrol sonucunda şu şüpheli dosyalar tespit edildi:",
-'anti_message_2'	=>  "Bilinmeyen dosyaların silinmesi ve değiştirilmiş dosyaların kontrol edilmesi önemle tavsiye edilir. Betiğin değiştirilmiş dosyalarında değişiklikleri siz yapmadıysanız, betiğin özgün dosyalarını geri yükleyin. Bu değişiklikler size aitse, betik yönetim panelinde dosyaların anlık görüntüsünü yeniden oluşturun.",
+'anti_message_2'	=>  "Bilinmeyen dosyaların silinmesi ve değiştirilmiş dosyaların kontrol edilmesi önemle tavsiye edilir. Yazılımın değiştirilmiş dosyalarında değişiklikleri siz yapmadıysanız, yazılımın özgün dosyalarını geri yükleyin. Bu değişiklikler size aitse, yazılım yönetim panelinde dosyaların anlık görüntüsünü yeniden oluşturun.",
 'big_text'			=>  "Çok büyük bir metin bölümü seçildi.",
 'orfo_title'		=>  "Sayfada bulunan hata için yönetime yorumunuzu belirtin:",
 'reg_err_24'        =>  "Kontrol sorusuna yanlış yanıt girildi",
@@ -471,8 +471,8 @@ $lang = array (
 'change_mail_1'		=>	"Sayın {name}! E-mail adresini şu şekilde değiştirme talebiniz:",
 'change_mail_2'		=>	"kabul edildi.",
 'change_mail_3'		=>	"Sitede e-mail adresini değiştirmek için şu bağlantıyı izlemelisiniz:",
-'change_mail_4'		=>	"Sitede yetkilendirilmemişsiniz. E-mail adresini değiştirmek için siteye kullanıcı adınız ve parolanızla giriş yapmanız, ardından e-mail değişikliği için bu bağlantıyı izlemeniz gerekir.",
-'change_mail_5'		=>	"Adres değişikliği mümkün değil. Başka bir kullanıcı adıyla yetkilendirildiniz veya bu kullanıcı sitede e-mail değişikliği talebinde bulunmadı.",
+'change_mail_4'		=>	"Siteye giriş yapmamışsınız. E-mail adresini değiştirmek için siteye kullanıcı adınız ve parolanızla giriş yapmanız, ardından e-mail değişikliği için bu bağlantıyı izlemeniz gerekir.",
+'change_mail_5'		=>	"Adres değişikliği mümkün değil. Başka bir kullanıcı adıyla giriş yaptınız veya bu kullanıcı sitede e-mail değişikliği talebinde bulunmadı.",
 'change_mail_6'		=>	"Sitedeki e-mail adresiniz başarıyla değiştirildi.",
 'news_info_7'		=>	"Site yöneticisi, sitede kayıt olduktan sonraki {days} gün boyunca yayın eklenmesini yasakladı.",
 'news_info_8'		=>	"Site yöneticisi, sitede kayıt olduktan sonraki {days} gün boyunca yorum eklenmesini yasakladı.",
@@ -522,7 +522,7 @@ $lang = array (
 'p_cancel'			=>	"İptal",
 'news_err_42'		=>	"<li>Yönetici erişimine sahipsiniz, bu nedenle sitedeki e-mail adresinizi veya parolanızı değiştirmek için site yönetim paneline gitmeniz gerekir. Bu işlem güvenlik amacıyla uygulanmaktadır. Yönetim panelinde kullanıcı yönetimi bölümüne gidin, kullanıcı adınızı bulun ve gerekli değişiklikleri yapın</li>",
 'news_err_43'		=>	"Yeni bir yayın ekleyebilmeniz için",
-'news_err_44'		=>	"Bir gün içinde siteye eklemenize izin verilen maksimum yayın sayısına ulaştınız.",
+'news_err_44'		=>	"Bir gün içinde siteye eklemenize izin verilen maksimum haber sayısına ulaştınız.",
 'bb_t_upload'		=>	"Dosyaları sunucuya yükleme",
 'message_pm'		=>	"Yayının silinmesine ilişkin bildirim",
 'message_pm_1'		=>	"Makaleniz",
@@ -532,7 +532,7 @@ $lang = array (
 'pm_err_10'			=>	"Günde {max} kişisel mesajdan fazlasını gönderemezsiniz.",
 'feed_err_9'		=>	"Günde {max} adetten fazla e-mail mesajı gönderemezsiniz.",
 'edit_selcomb'		=>	"Yorumları birleştir",
-'login_err_2'		=>	"Dikkat! Sitede yetkilendirme için izin verilen başarısız deneme sayısının üst sınırına ulaştınız. Hesaba erişim {time} dakika boyunca engellendi. Belirtilen süreden sonra sitede yetkilendirme denemesini tekrarlayın. Parolanızı unuttuysanız, sitede parolanızı geri yüklemeyi deneyin. Bunu da yalnızca engelleme süresi sona erdikten sonra yapabilirsiniz.",
+'login_err_2'		=>	"Dikkat! Siteye giriş için izin verilen başarısız deneme sayısının üst sınırına ulaştınız. Hesaba erişim {time} dakika boyunca engellendi. Belirtilen süreden sonra siteye giriş denemesini tekrarlayın. Parolanızı unuttuysanız, sitede parolanızı geri yüklemeyi deneyin. Bunu da yalnızca engelleme süresi sona erdikten sonra yapabilirsiniz.",
 // 9.0
 
 // 8.5
@@ -588,7 +588,7 @@ $lang = array (
 'not_allowed_sig'	=>	"<li>İmza çok uzun!</li>",
 'news_err_33'		=>	"Mesaj, yayımlanması yasak etiketler içeriyor.",
 'news_err_34'		=>	"Hakkınızdaki bilgi veya imzanız, yayımlanması yasak etiketler içeriyor.",
-'tags_count'		=>	"Bulunan yayın sayısı:",
+'tags_count'		=>	"Bulunan haber sayısı:",
 'news_err_35'		=>	"<li>Tam ad, yayımlanması yasak olan karakterler içeriyor!</li>",
 'news_err_36'		=>	"<li>İkamet yeri, yayımlanması yasak olan karakterler içeriyor!</li>",
 // 7.5
@@ -607,8 +607,8 @@ $lang = array (
 // 7.2
 'news_info_2'		=>	"Site yöneticisi, <b>{date}</b> tarihine kadar bu sitede yorum bırakmanızı yasakladı. Engelleme tamamen otomatik bir süreçtir ve bunu hızlandırmak veya durdurmak için sizin bir şey yapmanız gerekmez.",
 'news_info_3'		=>	"Site yöneticisi, bu sitede yorum bırakmanızı yasakladı.",
-'news_info_4'		=>	"Site yöneticisi, <b>{date}</b> tarihine kadar bu sitede kendi yayınlarınızı eklemenizi yasakladı. Engelleme tamamen otomatik bir süreçtir ve bunu hızlandırmak veya durdurmak için sizin bir şey yapmanız gerekmez.",
-'news_info_5'		=>	"Site yöneticisi, bu sitede kendi yayınlarınızı eklemenizi yasakladı.",
+'news_info_4'		=>	"Site yöneticisi, <b>{date}</b> tarihine kadar bu sitede kendi haberlerinızı eklemenizi yasakladı. Engelleme tamamen otomatik bir süreçtir ve bunu hızlandırmak veya durdurmak için sizin bir şey yapmanız gerekmez.",
+'news_info_5'		=>	"Site yöneticisi, bu sitede kendi haberlerinızı eklemenizi yasakladı.",
 'loading'    	    =>	"Yükleniyor...",
 'mail_pm'	  		=>  "Yeni kişisel mesaj",
 'sort_main'	  		=>  "Makaleleri şuna göre sırala:",
@@ -630,7 +630,7 @@ $lang = array (
 
 // 7.0
 'sig_not_allowed'	=>	"Bu alanı doldurmayın, çünkü grubunuz için yorumlarda imza kullanımı yasaklanmıştır.",
-'add_err_9'			=>	"Site yöneticisi, moderasyon beklemesine izin verilen maksimum makale sayısı için bir sınır belirledi. Şu anda yönetici tarafından kontrol edilmeyi bekleyen yayınların maksimum sayısı siteye eklenmiştir. Makalenizi biraz daha sonra eklemeyi deneyin.",
+'add_err_9'			=>	"Site yöneticisi, moderasyon beklemesine izin verilen maksimum makale sayısı için bir sınır belirledi. Şu anda yönetici tarafından kontrol edilmeyi bekleyen haberlerin maksimum sayısı siteye eklenmiştir. Makalenizi biraz daha sonra eklemeyi deneyin.",
 // 7.0
 
 // 6.7
@@ -645,9 +645,9 @@ $lang = array (
 'thumb_restore'		=>	"Görseli kapatmak için tıklayın, taşımak için basılı tutun",
 'thumb_focustitle'	=>	"Odakla",
 'thumb_cancel'		=>	"İptal etmek için tıklayın",
-'all_user_news'		=>	"Tüm yayınları görüntüle",
-'show_user_news'	=>	"Kullanıcının tüm yayınları",
-'menu_fnews'		=>	"Tüm yayınları bul",
+'all_user_news'		=>	"Tüm haberleri görüntüle",
+'show_user_news'	=>	"Kullanıcının tüm haberleri",
+'menu_fnews'		=>	"Tüm haberleri bul",
 'reg_next'			=>	"Sitede kayda devam et",
 'xf_not_notig'		=>	"isteğe bağlı",
 // 6.5
@@ -676,7 +676,7 @@ $lang = array (
 
 // 5.5
 's_ffullstart'    =>   "Gelişmiş arama",
-'user_logged'     =>    "Sitede başarıyla yetkilendirildiniz.",
+'user_logged'     =>    "Siteye başarıyla giriş yaptınız.",
 // 5.5
 
 // 5.3
@@ -700,7 +700,7 @@ $lang = array (
 'menu_uedit'	   =>	"Yönetim merkezi",
 // 5.2
 
-'fav_notfound'		=>	"Yer imlerinize hiçbir şey eklemediniz",
+'fav_notfound'		=>	"Yer imlerinize hiçbir şey eklemedin",
 'news_err_30'		=>	"Geçersiz güvenlik kodu girildi",
 's_allcat'			=>	"- Tüm bölümlerde ara -",
 's_con'				=>	"İçerikte ara",
@@ -808,7 +808,7 @@ $lang = array (
 'title_new'			=>	"Okunmamış",
 'title_date'		=>	"Materyaller:",
 'title_stats'		=>	"Site istatistikleri",
-'title_addnews'		=>	"Yayın ekleme",
+'title_addnews'		=>	"Haber ekleme",
 'title_register'	=>	"Ziyaretçi kaydı",
 'title_fav'			=>	"Yer imlerim",
 'title_pm'			=>	"Kişisel mesajlar",
@@ -935,7 +935,7 @@ $lang = array (
 'comm_ok_2'			=>	"Yorum başarıyla silindi.",
 'comm_title'		=>	"Yorum düzenleme",
 
-'login_err'			=>	"Yetkilendirme hatası",
+'login_err'			=>	"Giriş hatası",
 'login_err_1'		=>	"Dikkat! Siteye giriş yapılmadı. Yanlış kullanıcı adı veya parola girmiş olabilirsiniz.",
 
 'search_err_2'		=>	"Ne yazık ki site araması hiçbir sonuç vermedi. Sorgunuzu değiştirmeyi veya kısaltmayı deneyin.",
@@ -948,7 +948,7 @@ $lang = array (
 'lost_npass'		=>	"Sayın ziyaretçi! Talebinize göre sizin için yeni bir parola oluşturuldu. Siteye giriş için şu verileri kullanın:",
 'lost_login'		=>	"Kullanıcı adı:",
 'lost_pass'			=>	"Parola:",
-'lost_info'			=>	"Sitede yetkilendirildikten sonra bu parolayı istediğiniz başka bir parola ile değiştirebilirsiniz.",
+'lost_info'			=>	"Siteye giriş yaptıktan sonra bu parolayı istediğiniz başka bir parola ile değiştirebilirsiniz.",
 'lost_gen'			=>	"Yeni parola oluşturuldu",
 'lost_err'			=>	"Bu adlı kullanıcı parola kurtarma talebinde bulunmadı veya bu bağlantının süresi doldu. E-mail adresinize gönderilen bağlantı üzerinden yalnızca bir parola kurtarma denemesine izin verilir. Bundan sonra parola kurtarmayı e-mail üzerinden yeniden talep etmeniz gerekir",
 'lost_subj'			=>	"Unutulan parolanın kurtarılması",
@@ -962,7 +962,7 @@ $lang = array (
 'news_err_4'		=>	"Flood koruması etkin.",
 'news_err_5'		=>	"Bu makaleye yeniden yorum ekleyebilmeniz için",
 'news_err_6'		=>	"saniye beklemeniz gerekiyor.",
-'news_err_7'		=>	"<li>Üzgünüz, ancak kayıtlı kullanıcının adını veya e-mail adresini girdiniz. Eğer bu kullanıcı sizseniz, yönetim panelinde yetkilendirilmeniz gerekir.</li>",
+'news_err_7'		=>	"<li>Üzgünüz, ancak kayıtlı kullanıcının adını veya e-mail adresini girdiniz. Eğer bu kullanıcı sizseniz, yönetim panelinde giriş yapmanız gerekir.</li>",
 'news_err_9'		=>	"\"Ad\" alanı zorunludur ve boş olamaz.",
 'news_err_10'		=>	"Üzgünüz, ancak geçersiz e-mail adresi girdiniz.",
 'news_err_11'		=>	"\"Yorum\" alanı zorunludur ve boş olamaz.",
@@ -984,11 +984,11 @@ $lang = array (
 'news_err_28'		=>	"bu bölümdeki makaleleri görüntüleme erişimine sahip değil.",
 'news_err_29'		=>	"Bu makale için yorum eklenmesi yasaktır.",
 
-'feed_err_1'		=>	"Adınızı belirtmediniz.",
-'feed_err_2'		=>	"E-mail adresinizi belirtmediniz.",
+'feed_err_1'		=>	"Adınızı belirtmedin.",
+'feed_err_2'		=>	"E-mail adresinizi belirtmedin.",
 'feed_err_3'		=>	"E-mail yanlış belirtildi.",
-'feed_err_4'		=>	"Mesaj başlığını belirtmediniz.",
-'feed_err_5'		=>	"Mesaj metnini belirtmediniz.",
+'feed_err_4'		=>	"Mesaj başlığını belirtmedin.",
+'feed_err_5'		=>	"Mesaj metnini belirtmedin.",
 'feed_err_6'		=>	"Mesajınız gönderilemiyor.",
 'feed_err_7'		=>	"Bu kullanıcı veritabanında bulunamadı veya diğer kullanıcılardan e-posta almak istemiyor",
 
@@ -1023,7 +1023,7 @@ $lang = array (
 'pm_err_3'			=>	"Mesaj başlığı çok uzun",
 'pm_err_4'			=>	"Bu adlı alıcı bulunamadı",
 'pm_err_8'			=>	"Alıcının kişisel mesaj sayısı azami değere ulaştı, bu nedenle artık kişisel mesaj alamaz.",
-'pm_err_5'			=>	"Kişisel mesajlar silinmedi. Ya hiçbir şey seçmediniz ya da bunun için yetkiniz yok.",
+'pm_err_5'			=>	"Kişisel mesajlar silinmedi. Ya hiçbir şey seçmedin ya da bunun için yetkiniz yok.",
 'pm_err_6'			=>	"Bu yazışma mevcut değil veya bu yazışmayı görüntüleme erişiminiz yok.",
 'pm_err_9'			=>	"Kutunuz alınan mesajların azami sayısına ulaştı. Fazla mesajları silene kadar daha fazla kişisel mesaj alamazsınız.",
 
